@@ -1,0 +1,31 @@
+.eachsection {
+  height: 33.33vh;
+  background-color: grey;
+}
+.shapes {
+  display: inline-block;
+  border-width: 5px;
+  border-color: black;
+  border-style: solid;
+}
+.bar {
+  height: 20px;
+  width: 20px;
+  background-color: purple;
+  display: inline-block;
+}
+
+.rec {
+  height: 33px;
+  width: 200px;
+  background-color: green;
+  display: inline-block;
+}
+
+.cir {
+  height: 20px;
+  width: 20px;
+  background-color: blue;
+  display: inline-block;
+  border-radius: 50%;
+}
