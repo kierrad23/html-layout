@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+}
+.grey,
+.blue,
+.aqua,
+.green,
+.yellow {
+  height: 15vh;
+  background-color: purple;
+}
+.words {
+  background: white;
+  height: 25vh;
+}
+
+.sq {
+  background-color: #258af0;
+  height: 75%;
+  width: 13%;
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+
+.grey {
+  background-color: #d2d2d2;
+}
+
+.blue {
+  background-color: #4085de;
+}
+.aqua {
+  background-color: #46dfba;
+}
+.green {
+  background-color: #afe17b;
+}
+.yellow {
+  background-color: #f7e31b;
+}
+
+p {
+  font-size: 26px;
+  padding: 50px;
+}

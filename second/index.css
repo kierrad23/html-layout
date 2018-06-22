@@ -1,31 +1,62 @@
 .eachsection {
-  height: 33.33vh;
-  background-color: grey;
+  height: 33vh;
+  margin-top: 1%;
 }
 .shapes {
-  display: inline-block;
   border-width: 5px;
   border-color: black;
   border-style: solid;
 }
 .bar {
-  height: 20px;
-  width: 20px;
+  height: 250px;
+  width: 60px;
   background-color: purple;
   display: inline-block;
+  margin: 10px 10px -20px 10px;
 }
 
 .rec {
-  height: 33px;
-  width: 200px;
+  height: 325px;
+  width: 500px;
   background-color: green;
   display: inline-block;
+  margin: 10px 30px -20px 70px;
 }
 
 .cir {
-  height: 20px;
-  width: 20px;
+  height: 325px;
+  width: 325px;
   background-color: blue;
   display: inline-block;
   border-radius: 50%;
+  margin: 10px 10px -20px 10px;
+}
+.middle {
+  border-width: 5px;
+  border-color: black;
+  border-style: dotted;
+}
+.notepad {
+  background-color: #fdf495;
+  height: 80%;
+  width: 80%;
+  box-shadow: 15px 15px 6px -6px grey;
+  margin: 35px auto;
+}
+
+.friends {
+  background-color: white;
+  font-size: 36px;
+  width: 40%;
+  margin: 20px auto;
+  box-shadow: 10px 10px 6px -6px grey;
+  border-width: 1.25px;
+  border-color: #e3e3e3;
+  border-style: solid;
+}
+.hello {
+  text-align: center;
+  padding: 20%;
+  letter-spacing: 4px;
+  color: #44257e;
 }
